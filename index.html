@@ -1,39 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>What</title>
+    <title>Електронски дневник - најава</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/favicon.png" type="image/png">
 </head>
-
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Placeat eligendi quas amet dolores voluptates odio adipisci, ipsum alias maiores odit accusantium?<br> Explicabo similique quaerat porro nemo possimus provident.<br> Dolores, expedita.</p>
-    
-    <div class="Funny">
-        <a href="https://youtube.com" target="_blank"><button class="button" >Youtube Button</button></a>
+    <header>ЕЛЕКТРОНСКИ ДНЕВНИК - НАЈАВА</header>
+
+    <div class="e">
+        <a id="button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" title="Врска до блогот на Е-Дневник">Врска до блогот на Е-Дневник</a>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" id="archive" target="_blank" title="Пристап до Е-Дневник Архива">Пристап до Е-Дневник Архива</a>
     </div>
- 
+
+    <div class="login">
+        <header id="loginheader">НАЈАВА НА СИСТЕМОТ</header>
+        <form action="">
+            <div class="formUsername">
+                <label for="username">Корисничко име:</label>
+                <input type="text" name="username" size="23" id="usernameBox"><br>
+            </div>
+            <div class="formPassword">
+                <label for="pwd">Лозинка:</label>
+                <input type="password" name="pwd" size="23" id="passwordBox"><br>
+            </div>
+            <div class="forgotPassword">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" title="You won't believe where this leads to">ја заборавив лозинката</a> 
+            </div>
+            <div class="languageSelect">
+                <label for="dropdown">јазик:</label>
+                <select id="dropdownLang" name="options">
+                    <option value="option1">македонски</option>
+                    <option value="option2">shqip</option>
+                    <option value="option3">türkçe</option>
+                    <option value="option4">bosanski</option>
+                    <option value="option5">српски</option>
+                </select>
+            </div>
+            <div class="schoolyearSelect">
+                <label for="dropdown">Учебна година:</label>
+                <select id="dropdownYear" name="options">
+                    <option value="option1">Учебна Година 2024/2025</option>
+                    <option value="option2">Учебна Година 2023/2024</option>
+                    <option value="option3">Учебна Година 2022/2023</option>
+                    <option value="option4">Учебна Година 2021/2022</option>
+                </select>
+            </div>
+            <input id="loginButton" type="submit" value="Најави се">
+        </form>
+    </div>
 </body>
-
-<style>
-    body {
-        background-image: url(Images/abcd.jpeg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: 100% 100%;
-    }
-    p {
-        text-align: center;
-        text-decoration: underline;
-    }
-    .Funny {
-        text-align: center;
-    }
-    .button {
-        position: absolute;
-        top: 20%;
-    }
-</style>
-
 </html>

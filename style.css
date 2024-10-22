@@ -1,0 +1,236 @@
+body {
+    margin: 0px;
+    background-color: white;
+}
+
+header {
+    /* Colors */
+    background-color: #e57102;
+    color: aliceblue;
+    /* Font */
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    /* Padding */
+    padding-top: 2px;
+    padding-bottom: 0px;
+    padding-left: 25px;
+    /* Margin */
+    margin-bottom: 15px;
+}
+
+.e {
+    /* Margin */
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 25px;
+}
+
+#button {
+    display: inline-block;
+    /* Color */
+    background-color: #cccccc;
+    color: #332734;
+    /* Border */
+    border-color: #999999;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    /* Font */
+    font-size: 16px;
+    font-family: sans-serif;
+    text-decoration: none;
+    /* Padding */
+    padding-top: 6px;
+    padding-bottom: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#button:hover /* On Hover */ {
+    color: white;
+}
+
+#archive {
+    /* Position Text to Right */
+    float: right;
+    /* Font */
+    font-size: 18px;
+    font-family: sans-serif;
+    /* Colors */
+    color: #0f08d4;
+    padding-top: 6px;
+}
+
+.login {
+    /* Centering a div (WHAT) */
+    box-sizing: border-box;
+    max-width: fit-content;
+    margin-inline: auto;
+    /* Borders */
+    border-width: 1px;
+    border-color: #c1c1c1;
+    border-style: solid;
+}
+
+#loginheader {
+    /* Colors */
+    background-color: #f18300;
+    color: aliceblue;
+    /* Padding */
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    /* Font */
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+
+    margin-bottom: 8px;
+}
+
+.formUsername {
+    /* Centering */
+    box-sizing: border-box;
+    max-width: fit-content;
+    /* Margin */
+    margin-bottom: 8px;
+    margin-left: 40px;
+    /* Color */
+    color: #f18300;
+    /* Font */
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.formPassword {
+    /* Centering */
+    box-sizing: border-box;
+    max-width: fit-content;
+    /* Margin */
+    margin-bottom: 1px;
+    margin-left: 96px;
+    /* Color */
+    color: #f18300;
+    /* Font */
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.forgotPassword {
+    box-sizing: border-box;
+    max-width: fit-content;
+    margin-inline: auto;
+
+    font-family: sans-serif;
+    font-size: 10px;
+    color: #0f08d4;
+    
+    margin-bottom: 8px;
+    margin-right: 80px;
+}
+
+.languageSelect {
+    /* Centering */
+    box-sizing: border-box;
+    max-width: fit-content;
+    /* Margin */
+    margin-bottom: 8px;
+    margin-left: 118px;
+    /* Color */
+    color: #f18300;
+    /* Font */
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.schoolyearSelect {
+    /* Centering */
+    box-sizing: border-box;
+    max-width: fit-content;
+    /* Margin */
+    margin-bottom: 8px;
+    margin-left: 50px;
+    /* Color */
+    color: #f18300;
+    /* Font */
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+#loginButton {
+     /* Centering */
+    box-sizing: border-box;
+    max-width: fit-content;
+    /* Margin */
+    margin-bottom: 8px;
+    margin-left: 160px;
+    /* Font */
+    font-family: sans-serif;
+    font-size: 15px;
+
+    background: linear-gradient(to top, #e0e1e6, #fcfcfc);
+    border-radius: 6px;
+    border-style:outset;
+    border-color: #dddddd;
+    border-width: 1px;
+
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+#loginButton:active {
+    background: linear-gradient(to bottom, #e0e1e6, #fcfcfc);
+}
+
+#dropdownYear {
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #c1c1c1;
+    border-width: 1px;
+
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 10px;
+    /* horizontal, vertical, blur radius, spread radius, color(rgb, rgb, rgb, opacity) */
+    box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
+}
+
+#dropdownLang {
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #c1c1c1;
+    border-width: 1px;
+
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 50px;
+    /* horizontal, vertical, blur radius, spread radius, color */
+    box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
+}
+
+#passwordBox {
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #c1c1c1;
+    border-width: 1px;
+
+    padding-top: 3px;
+    padding-bottom: 3px;
+    /* horizontal, vertical, blur radius, spread radius, color */
+    box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
+}
+
+#usernameBox {
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #c1c1c1;
+    border-width: 1px;
+
+    padding-top: 3px;
+    padding-bottom: 3px;
+    /* horizontal, vertical, blur radius, spread radius, color */
+    box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
+}
